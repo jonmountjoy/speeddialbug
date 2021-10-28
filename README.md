@@ -1,16 +1,7 @@
 # speeddialback
 
-A new Flutter project.
+Shows a home page with 3 buttons that navigate to 3 other pages.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. The first page is just a standard Scaffold. You will be able to swipe to navigate back to the home page.
+1. The second page uses a `SpeedDial`. Swiping back no longer works for some reason.
+1. The third page uses a standard Flutter `FloatinActionButton`. You will be able to swipe to navigate back to the home page.
